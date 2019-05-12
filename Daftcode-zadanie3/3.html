@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Filtrowanie tablicy</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <input type="text" id="myInput" onkeydown="if (event.keyCode == 13)filterFunction()" placeholder="Search..">
+    <input type="button" class="search" onclick="filterFunction()" value="Szukaj">
+
+    <ul id="myUL">
+        <li>
+            <a href="#">Walmart</a>
+        </li>
+        <li>
+            <a href="#">State Grid</a>
+        </li>
+
+        <li>
+            <a href="#">Sinopec Group</a>
+        </li>
+        <li>
+            <a href="#">China National Petroleum</a>
+        </li>
+
+        <li>
+            <a href="#">Royal Dutch Shell</a>
+        </li>
+        <li>
+            <a href="#">Toyota Motor</a>
+        </li>
+        <li>
+            <a href="#">Volkswagen</a>
+        </li>
+        <li>
+            <a href="#">BP</a>
+        </li>
+        <li>
+            <a href="#">Exxon Mobil</a>
+        </li>
+        <li>
+            <a href="#">Berkshire Hathaway</a>
+        </li>
+    </ul>
+
+    <script type="text/javascript" src="./tablica.js"></script>
+</body>
+
+</html>

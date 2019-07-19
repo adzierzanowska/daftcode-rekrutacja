@@ -8,44 +8,63 @@
 </head>
 
 <body>
-    <input type="text" id="myInput" onkeydown="if (event.keyCode == 13)filterFunction()" placeholder="Search..">
-    <input type="button" class="search" onclick="filterFunction()" value="Szukaj">
+    <form>
+        <input type="text" id="myInput" onkeydown="if (event.keyCode == 13)filterFunction()" placeholder="Search..">
+        <input type="submit" class="search" onclick="filterFunction()" value="Szukaj">
+    </form>
 
-    <ul id="myUL">
-        <li>
-            <a href="#">Walmart</a>
-        </li>
-        <li>
-            <a href="#">State Grid</a>
-        </li>
-
-        <li>
-            <a href="#">Sinopec Group</a>
-        </li>
-        <li>
-            <a href="#">China National Petroleum</a>
-        </li>
-
-        <li>
-            <a href="#">Royal Dutch Shell</a>
-        </li>
-        <li>
-            <a href="#">Toyota Motor</a>
-        </li>
-        <li>
-            <a href="#">Volkswagen</a>
-        </li>
-        <li>
-            <a href="#">BP</a>
-        </li>
-        <li>
-            <a href="#">Exxon Mobil</a>
-        </li>
-        <li>
-            <a href="#">Berkshire Hathaway</a>
-        </li>
-    </ul>
-
+    <table id="myTable">
+        <tr>
+            <td colspan="12">
+                <a>Walmart</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a>State Grid</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a>Sinopec Group</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a>China National Petroleum</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a>Royal Dutch Shell</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a>Toyota Motor</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a>Volkswagen</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a>BP</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a>Exxon Mobil</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a>Berkshire Hathaway</a>
+            </td>
+        </tr>
+    </table>
     <script type="text/javascript" src="./tablica.js"></script>
 </body>
 

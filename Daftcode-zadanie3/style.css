@@ -14,21 +14,27 @@
       padding: 10px;
       margin: 10px;
   }
-  #myUL {
+  #myTable {
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
-  #myUL li a {
+  #myTable tr {
+    width: 100%;
+  }
+
+  #myTable td {
+    float: left;
     border: 1px solid #ddd; 
     margin-top: -1px;
     background-color: #f6f6f6;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     display: block; 
+    width: 100%;
   }
-  #myUL li a:hover:not(.header) {
-    background-color: #eee;
+  #myTable td:hover {
+    background-color: #b6b4b4;
   }
